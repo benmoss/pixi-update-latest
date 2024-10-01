@@ -1,0 +1,13 @@
+[project]
+authors = ["Ben Moss <bmoss40@bloomberg.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "repro"
+platforms = ["osx-arm64", "linux-64", "osx-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.9.7,<4"
+libffi = "==3.3"
